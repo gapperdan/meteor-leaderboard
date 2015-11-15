@@ -31,8 +31,11 @@ meteor reset
 # create meteor project
 meteor create <project name>
 
-# add package for managing account registration
+# add package for managing account registration in the backend
 meteor add accounts-password
+
+# add package for account registration ui
+meteor add accounts-ui
 
 # prevent updating of data thru the web console
 meteor remove insecure
