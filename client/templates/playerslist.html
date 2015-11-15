@@ -1,0 +1,22 @@
+<template name="playersList">
+  {{#if currentUser}}
+    Number of players: {{nbrPlayers}}
+  {{/if}}
+
+  {{#if showSelectedPlayer}}
+    <p>
+      <input type="button" class="increment" value="Give 5 Points">
+      <input type="button" class="decrement" value="Take 5 Points">
+      <input type="button" class="remove" value="Remove Player">
+    </p>
+  {{/if}}
+  <ul>
+    {{#each player}}
+      <li class="player {{selectedClass}}"> {{name}} : {{score}} </li>
+    {{/each}}
+  </ul>
+
+  {{#if showSelectedPlayer}}
+    Selected player: {{showSelectedPlayer.name}}
+  {{/if}}
+</template>
