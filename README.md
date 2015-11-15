@@ -1,5 +1,5 @@
 # meteor-leaderboard
-Sample Meteor application (Leaderboard) as desribed in http://meteortips.com
+Sample Meteor application (Leaderboard) as described in http://meteortips.com
 
 ## Installation
 Install Meteor: https://www.meteor.com/install
