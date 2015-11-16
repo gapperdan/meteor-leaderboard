@@ -1,13 +1,19 @@
 body {
   font: normal 120%/normal Arial, Helvetica, sans-serif;
+  width: 52%;
 }
 li {
   list-style-type: none;
 }
 .selected {
+    font-size: 140%;
     background: #909496;
     color: rgba(255,255,255,0.9);
   }
+.selected-display {
+    font-size: 140%;
+    color: rgba(0,142,198,1);
+}
 .enjoy-input {
   display: inline-block;
   -webkit-box-sizing: content-box;

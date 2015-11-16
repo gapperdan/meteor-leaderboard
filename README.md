@@ -40,13 +40,16 @@ meteor add accounts-ui
 # prevent updating of data thru the web console
 meteor remove insecure
 
-# deploy app to meteor.com (must be a unique name!)
+# deploy or redeploy app to meteor.com (must be a unique name!)
 meteor deploy <application name>.meteor.com
 # example
 meteor deploy my-app-1.meteor.com
 
 # undeploy app from meteor.com
 meteor deploy --delete
+
+# list packages installed
+meteor list
 
 # help
 meteor --help

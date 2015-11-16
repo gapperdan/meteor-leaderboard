@@ -1,6 +1,6 @@
 <template name="playersList">
   {{#if currentUser}}
-    Number of players: {{nbrPlayers}}
+    Number of players: <span class="selected-display">{{nbrPlayers}}</span>
   {{/if}}
 
   {{#if showSelectedPlayer}}
@@ -17,6 +17,6 @@
   </ul>
 
   {{#if showSelectedPlayer}}
-    Selected player: {{showSelectedPlayer.name}}
+    Selected player: <span class="selected-display">{{showSelectedPlayer.name}}</span>
   {{/if}}
 </template>
